@@ -1,0 +1,12 @@
+#ifndef CPP3_SMART_CALC_V_2_0_1_MODEL_DEPOSIT_CALCULATOR_TAXES_DATA_TYPES_H_
+#define CPP3_SMART_CALC_V_2_0_1_MODEL_DEPOSIT_CALCULATOR_TAXES_DATA_TYPES_H_
+
+namespace s21::deposit::taxes {
+enum class LogStatus {
+  kNone = 0,
+  kNo = 1 << 0,
+  kYes = 1 << 1,
+};
+}
+
+#endif  // CPP3_SMART_CALC_V_2_0_1_MODEL_DEPOSIT_CALCULATOR_TAXES_DATA_TYPES_H_
